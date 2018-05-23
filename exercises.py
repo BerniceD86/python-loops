@@ -11,7 +11,8 @@
 # ...
 # ...
 ##'Number 8, your order is ready.'
-
+for num in range(0,9):
+    print('Number '+ str(num) +', your order is ready.')
 
 #2 Now Serving
 #Create a while loop that will print the following message:
@@ -21,7 +22,20 @@
 # ...
 # ...
 # 'Now serving number 5.'
+number =1
+while number <= 5:
+    print('Now serving number ' +str( number))
+    number +=1
 
+#example from the web
+# i = 5
+# while(i):
+ #   print(i)
+  #  i=i-1
+#ticket = 1
+#while ticket < 6:
+ #   print('Now serving number ' + str(ticket) + '.')
+  #  ticket +=1
 
 #3 3 is a Magic Number
 #Create a while loop that will generate a multiplication table for the number 3 and print out the following:
