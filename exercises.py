@@ -48,6 +48,18 @@ while number <= 5:
 # ...
 # 9 x 3 = 27
 
+input =1
+while input < 10:
+    print (str(input) + " X " + str(3) + " = " + str(input*3))
+    input +=1
+
+#input = (1,10)
+#while input <10
+ #   print(input)
+  #  input *3
+
+#for i in range (1,10):
+ #   print (n,'x', i, '=', n*i)
 
 #4. Uber This!
 # Declare a variable named cars and assign it a list of 5 of your favorite car brands. Next create a for loop that will iterate through the cars list and prints the following: 'My next car will be a red x.' Where x represents each item in the list.
